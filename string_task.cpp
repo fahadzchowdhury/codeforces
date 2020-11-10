@@ -17,7 +17,7 @@ int main()
         {
             str.erase(str.begin() + i);
             n--;
-            i=0;
+            i=-1;
         }
     }
     n=str.size();
