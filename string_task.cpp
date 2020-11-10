@@ -16,6 +16,8 @@ int main()
         if (str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' || str[i]=='u' || str[i]=='y')
         {
             str.erase(str.begin() + i);
+            n--;
+            i=0;
         }
     }
     n=str.size();
