@@ -3,9 +3,9 @@
 using namespace std;
 int main()
 {
-    int x=0;
-    cin>>x;
-    for (int i = 1; i <= x; i++)
+    int x=0,n=0;
+    cin>>n;
+    for (int i = 1; i <= n; i++)
     {
         string input;
         cin>>input;
